@@ -12,4 +12,4 @@ $ npm install hexo-renderer-inferno --save
 
 ## Examples
 
-Please see [test/fixture](https://github.com/ppoffice/hexo-renderer-inferno/tree/master/test/fixture)
+Please refer to [test/fixture](https://github.com/ppoffice/hexo-renderer-inferno/tree/master/test/fixture) or [hexo-theme-hellscape](https://github.com/ppoffice/hexo-theme-hellscape).
