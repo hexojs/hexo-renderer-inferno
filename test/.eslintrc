@@ -1,0 +1,23 @@
+{
+  "extends": [
+    "hexo/test"
+  ],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "plugins": [
+    "react"
+  ],
+  "rules": {
+    "react/jsx-uses-vars": "error",
+    "indent": [
+      "error",
+      4,
+      {
+        "SwitchCase": 1
+      }
+    ]
+  }
+}
