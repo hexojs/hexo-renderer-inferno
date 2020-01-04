@@ -1,6 +1,6 @@
 {
   "name": "hexo-renderer-inferno",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Inferno.js renderer for Hexo",
   "keywords": [
     "hexo",
@@ -22,7 +22,7 @@
     "lint": "eslint .",
     "test": "mocha test/index.js",
     "test-cov": "nyc npm run test",
-    "postpublish" : "PACKAGE_VERSION=$(cat package.json | grep \\\"version\\\" | head -1 | awk -F: '{ print $2 }' | sed 's/[\",]//g' | tr -d '[[:space:]]') && git tag $PACKAGE_VERSION && git push --tags"
+    "postpublish": "PACKAGE_VERSION=$(cat package.json | grep \\\"version\\\" | head -1 | awk -F: '{ print $2 }' | sed 's/[\",]//g' | tr -d '[[:space:]]') && git tag $PACKAGE_VERSION && git push --tags"
   },
   "directories": {
     "lib": "./lib"
@@ -36,7 +36,6 @@
     "@babel/preset-env": "^7.7.7",
     "@babel/register": "^7.7.7",
     "babel-plugin-inferno": "^6.1.0",
-    "eval": "^0.1.4",
     "inferno": "^7.3.3",
     "inferno-create-element": "^7.3.3",
     "inferno-server": "^7.3.3"
