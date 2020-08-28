@@ -1,8 +1,8 @@
 # [Inferno.js](https://infernojs.org/) renderer
 
-[![Build Status](https://travis-ci.org/ppoffice/hexo-renderer-inferno.svg?branch=master)](https://travis-ci.org/ppoffice/hexo-renderer-inferno)
-[![NPM version](https://badge.fury.io/js/hexo-renderer-inferno.svg)](https://www.npmjs.com/package/hexo-renderer-inferno)
-[![Coverage Status](https://img.shields.io/coveralls/ppoffice/hexo-renderer-inferno.svg)](https://coveralls.io/r/ppoffice/hexo-renderer-inferno?branch=master)
+[![test](https://github.com/ppoffice/hexo-renderer-inferno/workflows/Testing/badge.svg)](https://github.com/ppoffice/hexo-renderer-inferno/actions?query=workflow%3ATesting)
+[![npm package](https://badge.fury.io/js/hexo-renderer-inferno.svg)](https://www.npmjs.com/package/hexo-renderer-inferno)
+[![coverage](https://img.shields.io/coveralls/ppoffice/hexo-renderer-inferno.svg)](https://coveralls.io/r/ppoffice/hexo-renderer-inferno?branch=master)
 
 ## Install
 
