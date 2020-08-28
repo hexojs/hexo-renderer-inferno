@@ -1,22 +1,23 @@
 {
   "name": "hexo-renderer-inferno",
   "version": "0.1.2",
-  "description": "Inferno.js renderer for Hexo",
+  "description": "Inferno.js JSX renderer for Hexo",
   "keywords": [
     "hexo",
     "inferno",
     "renderer",
-    "jsx"
+    "jsx",
+    "react"
   ],
   "main": "index.js",
-  "author": "ppoffice <zrp1994@gmail.com>",
+  "author": "ppoffice <ppoffice@users.noreply.github.com>",
   "maintainers": [
-    "ppoffice <zrp1994@gmail.com>"
+    "ppoffice <ppoffice@users.noreply.github.com>"
   ],
   "license": "MIT",
   "repository": "https://github.com/ppoffice/hexo-renderer-inferno.git",
   "bugs": {
-    "url": "https://github.com/vanwagonet/hexo-renderer-react/issues"
+    "url": "https://github.com/ppoffice/hexo-renderer-inferno/issues"
   },
   "scripts": {
     "lint": "eslint **/*.{js,jsx}",
@@ -49,6 +50,6 @@
     "nyc": "^15.1.0"
   },
   "engines": {
-    "node": ">=8"
+    "node": ">=10.13.0"
   }
 }
