@@ -19,10 +19,9 @@
     "url": "https://github.com/vanwagonet/hexo-renderer-react/issues"
   },
   "scripts": {
-    "lint": "eslint .",
+    "lint": "eslint **/*.{js,jsx}",
     "test": "mocha test/index.js",
-    "test-cov": "nyc npm run test",
-    "postpublish": "PACKAGE_VERSION=$(cat package.json | grep \\\"version\\\" | head -1 | awk -F: '{ print $2 }' | sed 's/[\",]//g' | tr -d '[[:space:]]') && git tag $PACKAGE_VERSION && git push --tags"
+    "test-cov": "nyc npm run test"
   },
   "directories": {
     "lib": "./lib"

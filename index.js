@@ -5,7 +5,7 @@
 const compile = require('./lib/compile');
 
 function renderer(data, locals) {
-    return compile(data)(locals);
+  return compile(data)(locals);
 }
 
 renderer.compile = compile;
