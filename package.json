@@ -21,7 +21,7 @@
   "scripts": {
     "lint": "eslint **/*.{js,jsx}",
     "test": "mocha test/index.js",
-    "test-cov": "nyc npm run test"
+    "test-cov": "nyc npm run test && nyc report -r=lcov --report-dir=coverage/"
   },
   "directories": {
     "lib": "./lib"
