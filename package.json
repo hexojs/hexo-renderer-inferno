@@ -15,9 +15,9 @@
     "ppoffice <ppoffice@users.noreply.github.com>"
   ],
   "license": "MIT",
-  "repository": "https://github.com/ppoffice/hexo-renderer-inferno.git",
+  "repository": "https://github.com/hexojs/hexo-renderer-inferno.git",
   "bugs": {
-    "url": "https://github.com/ppoffice/hexo-renderer-inferno/issues"
+    "url": "https://github.com/hexojs/hexo-renderer-inferno/issues"
   },
   "scripts": {
     "lint": "eslint **/*.{js,jsx}",
