@@ -46,7 +46,7 @@
     "eslint-config-hexo": "^4.1.0",
     "eslint-plugin-react": "^7.17.0",
     "hexo-fs": "^3.1.0",
-    "mocha": "^8.1.2",
+    "mocha": "^9.0.2",
     "nyc": "^15.1.0"
   },
   "engines": {
