@@ -42,7 +42,7 @@
   },
   "devDependencies": {
     "chai": "^4.2.0",
-    "eslint": "^7.7.0",
+    "eslint": "^8.1.0",
     "eslint-config-hexo": "^4.1.0",
     "eslint-plugin-react": "^7.17.0",
     "hexo-fs": "^3.1.0",
