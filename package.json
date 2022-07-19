@@ -37,7 +37,7 @@
     "@babel/register": "^7.7.7",
     "babel-plugin-inferno": "^6.1.0",
     "inferno": "^7.3.3",
-    "inferno-create-element": "^7.3.3",
+    "inferno-create-element": "^8.0.1",
     "inferno-server": "^7.3.3"
   },
   "devDependencies": {
