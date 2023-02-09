@@ -36,7 +36,7 @@
     "@babel/preset-env": "^7.7.7",
     "@babel/register": "^7.7.7",
     "babel-plugin-inferno": "^6.1.0",
-    "inferno": "^7.3.3",
+    "inferno": "^8.0.6",
     "inferno-create-element": "^7.3.3",
     "inferno-server": "^7.3.3"
   },
