@@ -25,11 +25,11 @@ jobs:
   coverage:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
         with:
-          node-version: latest
-      - uses: actions/cache@v1
+          node-version: ${{ matrix.node-version }}
+      - uses: actions/cache@v3
         with:
           path: node_modules
           key: npm-cache
