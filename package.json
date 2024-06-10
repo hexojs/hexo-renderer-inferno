@@ -47,7 +47,7 @@
     "eslint-plugin-react": "^7.33.2",
     "hexo-fs": "^4.1.1",
     "mocha": "^10.2.0",
-    "nyc": "^15.1.0"
+    "nyc": "^17.0.0"
   },
   "engines": {
     "node": ">=14"
